@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/*---------- container-1 ----------*/
+
+#intro{
+    width: 100%;
+    height: 100vh;
+    background: url(img/dream-pulse-header.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+/* left-sidebar */
+
+#left-sidebar{
+    width: 30%;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+#brand-name{
+    width: 100%;
+    height: auto;
+    box-sizing: content-box;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#border-1,#border-2{
+    border: 1px solid white;
+    width: 200px;
+    height: 130px;
+    position: relative;
+}
+
+#border-2{
+    left: 10px;
+    top: 10px;
+}
+
+.intro-heading{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 100;
+    padding-top: 25px;
+}
+
+ul{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+ul li{
+    line-height: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.navbar .fa-solid {
+    padding-left: 25px;
+    color:#fff
+}
+
+.icon{
+    margin-top: 50px;
+}
+
+.icon .fa-brands{
+    margin-left: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.footer-text{
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.ftext{
+    color: #fff;
+    font-size: 12px;
+}
+
+/* right-side-content */
+
+#right-side-content{
+    position: relative;
+}
+
+#content-text{
+    width: 400px;
+    height: 350px;
+    background: rgba(255,255,255,0.3);
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 450px;
+    top: 200px;
+}
+
+.head-text{
+    font-size: 20px;
+    color: #069;
+    margin-top: 25px;
+}
+
+#para{
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#para-1 , #para-2 , #head{
+    width: 300px;
+    margin-left: 50px;
+    text-align: left;
+}
+#para-2{
+    margin-top: 15px;   
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/*--------------------- container-2 --------------------*/
+
+#about,#work{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.left-sidebar{
+    width: 30%;
+    background: #333;
+}
+
+/* right-sidebar */
+
+.right-sidebar{
+    width: 70%;
+    display: flex;
+}
+
+#content-1,#content-2{
+    height: 500px;
+    width: 40%;
+    line-height: 30px;
+    margin-left: 7%;
+}
+
+.icon1 .fa-solid,.icon1 .fa-regular{
+    font-size: 70px;
+    color: darkblue;
+    margin-top: 30px;
+}
+
+.about-headind{
+    font-size: 25px;
+    color: #069;
+    margin-top: 40px;
+}
+
+.para-cont-1-2{
+    margin-top: 40px;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/*--------------------- container-3 --------------------*/
+
+.right-sidebar3{
+    width: 70%;
+    display: flex;
+}
+
+.border-co3-1,.border-co3-2{
+    border: 1px solid #333;
+    position: relative;
+    width: 800px;
+    height: 360px;
+}
+
+.border-co3-1{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.border-co3-2{
+    left: 10px;
+    top: 10px;
+}
+
+.work-heading{
+    margin-left: 35px;
+    font-size: 25px;
+    color: #069;
+    margin-top: 40px;
+}
+
+.image-gallary{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.img,.img-1{
+    height: 200px;
+    width: 160px;
+}
+
+.img-1{
+    margin-left: 20px;
+}
+
+.co-3-icon{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.co-3-icon .fa-solid{
+    font-size: 8px;
+    color: lightgrey;
+}
+
+#icon-darkgray{
+    color: #333;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/*--------------------- container-4 --------------------*/
+
+#clients{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+/* right-sidebar */
+
+.right-sidebar4{
+    width: 70%;
+}
+
+.clients-heading{
+    margin-left: 65px;
+    color: #069;
+}
+
+.para-4{
+    padding-left: 65px;
+    margin-top: 30px;
+    line-height: 30px;
+
+}
+
+.client-name{
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.clientimg{
+    border: 1px solid #333;
+    width: 180px;
+    height: 60px;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.img-row-2{
+    margin-top: 10px;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/*--------------------- container-5 --------------------*/
+
+#talk{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.right-sidebar5{
+    width: 70%;
+    display: flex;
+}
+
+.border1-co5 , .border2-co5{
+    border: 1px solid #333;
+    width: 420px;
+    height: 300px;
+    position: relative;
+}
+
+.border1-co5{
+    margin-left: 35px;
+}
+
+.border2-co5{
+    left: 10px;
+    top: 10px;
+}
+
+.talk-heading{
+    margin-left: 25px;
+    margin-top: 40px;
+    color: #069;
+}
+
+.para-5{
+    margin-top: 20px;
+    margin-left: 25px;
+    line-height: 30px;
+
+}
+
+.contact-detail{
+    margin-left: 70px;
+}
+
+/* form */
+
+.form-group{
+    margin-top: 20px;
+}
+
+.form-row{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.text-row{
+    width: 220px;
+    height: 120px;
+    margin-top: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+/* button */
+
+.send-button{
+    margin-top: 25px;
+    margin-left: 170px;
+}
+
+/* ----------------------------------------------------------------------------------- */
